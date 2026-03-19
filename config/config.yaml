@@ -1,0 +1,14 @@
+data:
+  input_path: "data/incoming/"
+  processed_path: "data/processed/"
+
+model:
+  type: "linear_regression"
+  save_path: "models/"
+
+logging:
+  log_file: "logs/pipeline.log"
+
+s3:
+  bucket_name: "ml-pipeline-v6-gayathri"
+  prefix: ""   # keep empty for now
